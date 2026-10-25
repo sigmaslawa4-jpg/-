@@ -1,0 +1,10 @@
+{
+  "block.citygrid.power_pole": "Power Pole",
+  "block.citygrid.lamp_pole": "Lamp Pole",
+  "block.citygrid.street_lamp": "Street Lamp",
+  "item.citygrid.repair_kit": "Electrician's Kit",
+  "itemGroup.citygrid": "City Grid",
+  "message.citygrid.need_kit": "Damaged! You need an Electrician's Kit to repair it.",
+  "message.citygrid.need_copper": "You need 1 Copper Ingot (wire) in your inventory.",
+  "message.citygrid.repaired": "Repaired!"
+}

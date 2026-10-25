@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "citygrid",
+  "version": "${version}",
+  "name": "City Grid",
+  "description": "Street lamps and power poles. Lightning and faults break them - repair them with an electrician's kit.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.citygrid.CityGrid"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

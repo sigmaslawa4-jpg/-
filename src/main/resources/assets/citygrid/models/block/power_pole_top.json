@@ -1,0 +1,169 @@
+{
+  "textures": {
+    "wood": "citygrid:block/power_pole",
+    "ins": "citygrid:block/insulator",
+    "particle": "#wood"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        11,
+        6
+      ],
+      "to": [
+        16,
+        13,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        13,
+        7
+      ],
+      "to": [
+        3,
+        15,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ins"
+        },
+        "up": {
+          "texture": "#ins"
+        },
+        "north": {
+          "texture": "#ins"
+        },
+        "south": {
+          "texture": "#ins"
+        },
+        "east": {
+          "texture": "#ins"
+        },
+        "west": {
+          "texture": "#ins"
+        }
+      }
+    },
+    {
+      "from": [
+        13,
+        13,
+        7
+      ],
+      "to": [
+        15,
+        15,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ins"
+        },
+        "up": {
+          "texture": "#ins"
+        },
+        "north": {
+          "texture": "#ins"
+        },
+        "south": {
+          "texture": "#ins"
+        },
+        "east": {
+          "texture": "#ins"
+        },
+        "west": {
+          "texture": "#ins"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        16,
+        7
+      ],
+      "to": [
+        9,
+        18,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ins"
+        },
+        "up": {
+          "texture": "#ins"
+        },
+        "north": {
+          "texture": "#ins"
+        },
+        "south": {
+          "texture": "#ins"
+        },
+        "east": {
+          "texture": "#ins"
+        },
+        "west": {
+          "texture": "#ins"
+        }
+      }
+    }
+  ]
+}

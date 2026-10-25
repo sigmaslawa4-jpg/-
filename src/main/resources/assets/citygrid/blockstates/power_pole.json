@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "broken=false,top=false": {
+      "model": "citygrid:block/power_pole_mid"
+    },
+    "broken=false,top=true": {
+      "model": "citygrid:block/power_pole_top"
+    },
+    "broken=true,top=false": {
+      "model": "citygrid:block/power_pole_mid_burnt"
+    },
+    "broken=true,top=true": {
+      "model": "citygrid:block/power_pole_top_burnt"
+    }
+  }
+}

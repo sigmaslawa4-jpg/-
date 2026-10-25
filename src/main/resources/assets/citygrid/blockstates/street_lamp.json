@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "broken=false,lit=false": {
+      "model": "citygrid:block/street_lamp_off"
+    },
+    "broken=false,lit=true": {
+      "model": "citygrid:block/street_lamp_on"
+    },
+    "broken=true,lit=false": {
+      "model": "citygrid:block/street_lamp_broken"
+    },
+    "broken=true,lit=true": {
+      "model": "citygrid:block/street_lamp_broken"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "block.citygrid.power_pole": "Электрический столб",
+  "block.citygrid.lamp_pole": "Секция фонарного столба",
+  "block.citygrid.street_lamp": "Уличный фонарь",
+  "item.citygrid.repair_kit": "Набор электрика",
+  "itemGroup.citygrid": "Городская сеть",
+  "message.citygrid.need_kit": "Авария! Для ремонта нужен набор электрика.",
+  "message.citygrid.need_copper": "Нужен 1 медный слиток (провод) в инвентаре.",
+  "message.citygrid.repaired": "Отремонтировано!"
+}
