@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "QQQ",
+    "Q Q"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "id": "toiletmod:toilet",
+    "count": 1
+  }
+}

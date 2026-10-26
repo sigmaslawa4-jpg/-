@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "toiletmod:toilet",
+    "toiletmod:router",
+    "toiletmod:internet_station",
+    "toiletmod:tv"
+  ]
+}

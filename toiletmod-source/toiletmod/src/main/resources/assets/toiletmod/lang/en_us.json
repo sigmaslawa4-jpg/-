@@ -1,0 +1,20 @@
+{
+  "itemGroup.toiletmod.main": "Toilet & Internet",
+  "block.toiletmod.toilet": "Toilet",
+  "block.toiletmod.router": "Router",
+  "block.toiletmod.internet_station": "Internet Station",
+  "block.toiletmod.tv": "Television",
+  "hud.toiletmod.pee": "Pee",
+  "hud.toiletmod.poop": "Poop",
+  "message.toiletmod.not_needed": "You don't need to go yet",
+  "message.toiletmod.relief_pee": "Ahh, much better",
+  "message.toiletmod.relief_poop": "Finally...",
+  "message.toiletmod.relief_both": "What a relief!",
+  "message.toiletmod.accident_pee": "You couldn't hold it...",
+  "message.toiletmod.accident_poop": "You didn't make it to the toilet!",
+  "message.toiletmod.network_placed": "Network online. Range: %s blocks",
+  "message.toiletmod.network_info": "Network range: %s blocks",
+  "message.toiletmod.tv_on": "TV turned on",
+  "message.toiletmod.tv_off": "TV turned off",
+  "message.toiletmod.tv_no_internet": "No internet! Place a router or station nearby"
+}

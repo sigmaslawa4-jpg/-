@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "front": "toiletmod:block/tv_front_off",
+    "side": "toiletmod:block/tv_side",
+    "particle": "toiletmod:block/tv_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        3,
+        5
+      ],
+      "to": [
+        16,
+        15,
+        11
+      ],
+      "faces": {
+        "south": {
+          "texture": "#front",
+          "uv": [
+            0,
+            2,
+            16,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        3,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

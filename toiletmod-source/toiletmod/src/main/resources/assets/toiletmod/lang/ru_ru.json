@@ -1,0 +1,20 @@
+{
+  "itemGroup.toiletmod.main": "Туалет и интернет",
+  "block.toiletmod.toilet": "Унитаз",
+  "block.toiletmod.router": "Роутер",
+  "block.toiletmod.internet_station": "Интернет-станция",
+  "block.toiletmod.tv": "Телевизор",
+  "hud.toiletmod.pee": "Пописать",
+  "hud.toiletmod.poop": "Покакать",
+  "message.toiletmod.not_needed": "Тебе пока не хочется",
+  "message.toiletmod.relief_pee": "Фух, полегчало",
+  "message.toiletmod.relief_poop": "Фух, наконец-то",
+  "message.toiletmod.relief_both": "Какое облегчение!",
+  "message.toiletmod.accident_pee": "Ты не дотерпел...",
+  "message.toiletmod.accident_poop": "Ты не успел добежать до унитаза!",
+  "message.toiletmod.network_placed": "Сеть работает. Радиус: %s блоков",
+  "message.toiletmod.network_info": "Радиус сети: %s блоков",
+  "message.toiletmod.tv_on": "Телевизор включён",
+  "message.toiletmod.tv_off": "Телевизор выключен",
+  "message.toiletmod.tv_no_internet": "Нет интернета! Поставь рядом роутер или станцию"
+}

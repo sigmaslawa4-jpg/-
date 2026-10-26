@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "toiletmod:block/toilet"
+    },
+    "facing=west": {
+      "model": "toiletmod:block/toilet",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "toiletmod:block/toilet",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "toiletmod:block/toilet",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "toiletmod",
+	"version": "${version}",
+	"name": "Toilet & Internet Mod",
+	"description": "Потребности (пописать/покакать), унитаз, роутеры, интернет-станции и телевизор, который работает только с интернетом.",
+	"authors": ["You"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.toiletmod.ToiletMod"],
+		"client": ["com.toiletmod.client.ToiletModClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
