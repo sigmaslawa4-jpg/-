@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "citygrid:block/generator_off"
+    },
+    "lit=true": {
+      "model": "citygrid:block/generator_on"
+    }
+  }
+}
