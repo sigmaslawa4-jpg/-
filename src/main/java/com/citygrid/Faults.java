@@ -63,6 +63,7 @@ public final class Faults {
         if (broken) {
             world.playSound(null, pos, SoundEvents.BLOCK_FIRE_EXTINGUISH, SoundCategory.BLOCKS, 1.0f, 0.8f);
         }
+        Grid.markDirty(world);
     }
 
     /** Вызывается из randomTick блоков: самопроизвольные неполадки и притягивание молний в грозу. */

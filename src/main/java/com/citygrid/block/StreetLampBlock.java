@@ -22,7 +22,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 /**
- * Уличный фонарь. Горит ночью (и в дождь), если рядом есть исправный электрический столб
+ * Уличный фонарь. Горит ночью (и в дождь), если рядом есть столб под напряжением от подстанции
  * и сам фонарь не сломан.
  */
 public class StreetLampBlock extends Block {

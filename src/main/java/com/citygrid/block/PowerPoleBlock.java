@@ -1,9 +1,11 @@
 package com.citygrid.block;
 
 import com.citygrid.Faults;
-import com.citygrid.GridConfig;
+import com.citygrid.Grid;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockEntityProvider;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.item.ItemPlacementContext;
@@ -24,10 +26,9 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
-import net.minecraft.world.chunk.ChunkManager;
 
 /** Деревянный электрический столб. Ставится в высоту; верхний сегмент получает траверсу с изоляторами. */
-public class PowerPoleBlock extends Block {
+public class PowerPoleBlock extends Block implements BlockEntityProvider {
     public static final BooleanProperty TOP = BooleanProperty.of("top");
 
     private static final VoxelShape POLE = Block.createCuboidShape(5, 0, 5, 11, 16, 11);
@@ -98,23 +99,27 @@ public class PowerPoleBlock extends Block {
         return Faults.hint(state, world, player);
     }
 
-    /** Есть ли рядом исправный электрический столб. */
-    public static boolean hasPower(World world, BlockPos origin) {
-        int r = GridConfig.POWER_RANGE;
-        ChunkManager cm = world.getChunkManager();
-        BlockPos.Mutable p = new BlockPos.Mutable();
-        for (int dx = -r; dx <= r; dx++) {
-            for (int dz = -r; dz <= r; dz++) {
-                int wx = origin.getX() + dx;
-                int wz = origin.getZ() + dz;
-                if (!cm.isChunkLoaded(wx >> 4, wz >> 4)) continue;
-                for (int dy = -r; dy <= r; dy++) {
-                    p.set(wx, origin.getY() + dy, wz);
-                    BlockState s = world.getBlockState(p);
-                    if (s.getBlock() instanceof PowerPoleBlock && !s.get(Faults.BROKEN)) return true;
-                }
-            }
+    @Override
+    public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+        return new WireNodeBlockEntity(pos, state);
+    }
+
+    @Override
+    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
+        Grid.markDirty(world);
+    }
+
+    @Override
+    public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
+        if (!state.isOf(newState.getBlock())) {
+            WireNodeBlockEntity.removeAllLinks(world, pos);
+            Grid.markDirty(world);
         }
-        return false;
+        super.onStateReplaced(state, world, pos, newState, moved);
+    }
+
+    /** Совместимость: есть ли рядом столб под напряжением от подстанции. */
+    public static boolean hasPower(World world, BlockPos origin) {
+        return Grid.streetPowered(world, origin);
     }
 }
