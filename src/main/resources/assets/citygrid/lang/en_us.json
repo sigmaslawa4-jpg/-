@@ -6,5 +6,20 @@
   "itemGroup.citygrid": "City Grid",
   "message.citygrid.need_kit": "Damaged! You need an Electrician's Kit to repair it.",
   "message.citygrid.need_copper": "You need 1 Copper Ingot (wire) in your inventory.",
-  "message.citygrid.repaired": "Repaired!"
+  "message.citygrid.repaired": "Repaired!",
+  "block.citygrid.cable": "Underground Cable",
+  "block.citygrid.substation": "Substation",
+  "block.citygrid.meter_box": "Meter Box",
+  "block.citygrid.house_lamp": "House Lamp",
+  "block.citygrid.tv": "TV",
+  "block.citygrid.generator": "Backup Generator",
+  "item.citygrid.wire_spool": "Wire Spool",
+  "message.citygrid.wire_first": "First end selected. Right-click the second pole / box.",
+  "message.citygrid.wire_linked": "Wire connected!",
+  "message.citygrid.wire_cut": "Wires cut.",
+  "message.citygrid.wire_far": "Too far! Max wire length: %s blocks.",
+  "message.citygrid.wire_fail": "Can't connect (already connected or too many wires).",
+  "message.citygrid.meter_on": "Meter: power is ON",
+  "message.citygrid.meter_off": "Meter: NO POWER",
+  "message.citygrid.gen_fuel": "Generator fuel: %s sec."
 }

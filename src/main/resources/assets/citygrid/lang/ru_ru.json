@@ -6,5 +6,20 @@
   "itemGroup.citygrid": "Городская сеть",
   "message.citygrid.need_kit": "Авария! Для ремонта нужен набор электрика.",
   "message.citygrid.need_copper": "Нужен 1 медный слиток (провод) в инвентаре.",
-  "message.citygrid.repaired": "Отремонтировано!"
+  "message.citygrid.repaired": "Отремонтировано!",
+  "block.citygrid.cable": "Подземный кабель",
+  "block.citygrid.substation": "Подстанция",
+  "block.citygrid.meter_box": "Электрощиток",
+  "block.citygrid.house_lamp": "Домашняя лампа",
+  "block.citygrid.tv": "Телевизор",
+  "block.citygrid.generator": "Резервный генератор",
+  "item.citygrid.wire_spool": "Катушка провода",
+  "message.citygrid.wire_first": "Первый конец выбран. Нажми ПКМ по второму столбу / щитку.",
+  "message.citygrid.wire_linked": "Провод подключён!",
+  "message.citygrid.wire_cut": "Провода срезаны.",
+  "message.citygrid.wire_far": "Слишком далеко! Макс. длина провода: %s блоков.",
+  "message.citygrid.wire_fail": "Нельзя подключить (уже соединено или слишком много проводов).",
+  "message.citygrid.meter_on": "Щиток: ток есть",
+  "message.citygrid.meter_off": "Щиток: НЕТ ТОКА",
+  "message.citygrid.gen_fuel": "Топливо генератора: %s сек."
 }

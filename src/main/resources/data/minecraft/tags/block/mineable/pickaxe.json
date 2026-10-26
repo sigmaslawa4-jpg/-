@@ -1,6 +1,12 @@
 {
   "values": [
     "citygrid:lamp_pole",
-    "citygrid:street_lamp"
+    "citygrid:street_lamp",
+    "citygrid:cable",
+    "citygrid:substation",
+    "citygrid:meter_box",
+    "citygrid:house_lamp",
+    "citygrid:tv",
+    "citygrid:generator"
   ]
 }

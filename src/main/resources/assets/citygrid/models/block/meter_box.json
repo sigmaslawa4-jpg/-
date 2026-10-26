@@ -1,0 +1,106 @@
+{
+  "textures": {
+    "b": "citygrid:block/meter",
+    "d": "citygrid:block/meter_dial",
+    "m": "citygrid:block/lamp_pole",
+    "particle": "#b"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        1,
+        5
+      ],
+      "to": [
+        13,
+        15,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#b"
+        },
+        "up": {
+          "texture": "#b"
+        },
+        "north": {
+          "texture": "#b"
+        },
+        "south": {
+          "texture": "#b"
+        },
+        "east": {
+          "texture": "#b"
+        },
+        "west": {
+          "texture": "#b"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8,
+        4.5
+      ],
+      "to": [
+        11,
+        12,
+        5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#d"
+        },
+        "up": {
+          "texture": "#d"
+        },
+        "north": {
+          "texture": "#d"
+        },
+        "south": {
+          "texture": "#d"
+        },
+        "east": {
+          "texture": "#d"
+        },
+        "west": {
+          "texture": "#d"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        4,
+        4.5
+      ],
+      "to": [
+        7,
+        6,
+        5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#m"
+        },
+        "up": {
+          "texture": "#m"
+        },
+        "north": {
+          "texture": "#m"
+        },
+        "south": {
+          "texture": "#m"
+        },
+        "east": {
+          "texture": "#m"
+        },
+        "west": {
+          "texture": "#m"
+        }
+      }
+    }
+  ]
+}
