@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "citygrid:block/meter_box"
+    }
+  }
+}

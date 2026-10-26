@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "lit=false,on=false": {
+      "model": "citygrid:block/house_lamp_off"
+    },
+    "lit=false,on=true": {
+      "model": "citygrid:block/house_lamp_off"
+    },
+    "lit=true,on=false": {
+      "model": "citygrid:block/house_lamp_on"
+    },
+    "lit=true,on=true": {
+      "model": "citygrid:block/house_lamp_on"
+    }
+  }
+}

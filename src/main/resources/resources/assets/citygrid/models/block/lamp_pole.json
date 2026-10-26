@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "m": "citygrid:block/lamp_pole",
+    "particle": "#m"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#m"
+        },
+        "up": {
+          "texture": "#m"
+        },
+        "north": {
+          "texture": "#m"
+        },
+        "south": {
+          "texture": "#m"
+        },
+        "east": {
+          "texture": "#m"
+        },
+        "west": {
+          "texture": "#m"
+        }
+      }
+    }
+  ]
+}
