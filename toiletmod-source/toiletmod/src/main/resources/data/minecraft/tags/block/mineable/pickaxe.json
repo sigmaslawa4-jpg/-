@@ -4,6 +4,7 @@
     "toiletmod:toilet",
     "toiletmod:router",
     "toiletmod:internet_station",
-    "toiletmod:tv"
+    "toiletmod:tv",
+    "toiletmod:computer"
   ]
 }

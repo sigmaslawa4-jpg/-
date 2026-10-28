@@ -21,6 +21,7 @@ public class NeedsLogic {
 
 	public static void init() {
 		PayloadTypeRegistry.playS2C().register(NeedsPayload.ID, NeedsPayload.CODEC);
+		PayloadTypeRegistry.playS2C().register(OpenBrowserPayload.ID, OpenBrowserPayload.CODEC);
 
 		// Раз в секунду увеличиваем потребности и шлём клиенту.
 		ServerTickEvents.END_SERVER_TICK.register(server -> {

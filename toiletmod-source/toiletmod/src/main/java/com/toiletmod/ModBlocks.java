@@ -2,7 +2,7 @@ package com.toiletmod;
 
 import com.toiletmod.block.NetworkBlock;
 import com.toiletmod.block.ToiletBlock;
-import com.toiletmod.block.TvBlock;
+import com.toiletmod.block.ScreenBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -28,8 +28,12 @@ public class ModBlocks {
 					NetworkBlock.STATION_RANGE, NetworkBlock.STATION_SHAPE));
 
 	public static final Block TV = register("tv",
-			new TvBlock(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.METAL).nonOpaque()
-					.luminance(state -> state.get(TvBlock.ON) ? 8 : 0)));
+			new ScreenBlock(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.METAL).nonOpaque()
+					.luminance(state -> state.get(ScreenBlock.ON) ? 8 : 0), ScreenBlock.KIND_TV));
+
+	public static final Block COMPUTER = register("computer",
+			new ScreenBlock(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.METAL).nonOpaque()
+					.luminance(state -> state.get(ScreenBlock.ON) ? 8 : 0), ScreenBlock.KIND_COMPUTER));
 
 	private static Block register(String name, Block block) {
 		Identifier id = Identifier.of(ToiletMod.MOD_ID, name);
@@ -48,6 +52,7 @@ public class ModBlocks {
 							entries.add(ROUTER);
 							entries.add(INTERNET_STATION);
 							entries.add(TV);
+							entries.add(COMPUTER);
 						})
 						.build());
 	}
